@@ -1,0 +1,56 @@
+:root {
+    --color-purple: rgb(149, 85, 233);
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+    font-family: "Century Gothic", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+div#center-all {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+h2.bottom {
+    border: 2px solid white;
+    border-radius: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+}
+
+h2.bottom:hover {
+    border-color: var(--color-purple);
+    transition-duration: 100ms;
+}
+
+img {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+img.clickable {
+    cursor: pointer;
+}
+
+img.clickable:hover {
+    border-color: var(--color-purple);
+    transition-duration: 100ms;
+}
+
+.win {
+    color: rgb(0, 255, 0)
+}
