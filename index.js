@@ -5,7 +5,7 @@ const app = express()
 app.use(express.static('public'))
 
 app.get("/", (req, res) => {
-    res.send('/index.html')
+    res.send('funcionando!')
 })
 
 app.listen(3000, () => {
